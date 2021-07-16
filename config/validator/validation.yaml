@@ -1,0 +1,10 @@
+App\DTO\DivideRequestData:
+    properties:
+        dividend:
+            - Type: numeric
+            - NotBlank: ~
+        divisor:
+            - Type: numeric
+            - NotBlank: ~
+            - NotEqualTo:
+                value: 0

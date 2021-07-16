@@ -1,3 +1,4 @@
-#index:
-#    path: /
-#    controller: App\Controller\DefaultController::index
+divide:
+    path: /divide/{dividend}/{divisor}
+    controller: App\Controller\MathController::divide
+    methods: GET
